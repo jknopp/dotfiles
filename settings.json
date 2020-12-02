@@ -1,0 +1,19 @@
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+
+    // "terminal.integrated.shell.linux": "/bin/zsh",
+    // "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.shell.windows": "C:\\Users\\owner\\AppData\\Local\\Microsoft\\WindowsApps\\pwsh.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "-ExecutionPolicy", "Bypass",
+        "-NoLogo",
+        "-NoExit"
+    ],
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontSize": 12,
+    
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.colorTheme": "Dracula"
+}
