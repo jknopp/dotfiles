@@ -3,7 +3,7 @@
     "editor.fontLigatures": true,
 
     // "terminal.integrated.shell.linux": "/bin/zsh",
-    // "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.shell.windows": "C:\\Users\\owner\\AppData\\Local\\Microsoft\\WindowsApps\\pwsh.exe",
     "terminal.integrated.shellArgs.windows": [
         "-ExecutionPolicy", "Bypass",
