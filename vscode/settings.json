@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "Fira Code, FiraCodeNerdFontComplete-Retina",
     "editor.fontLigatures": true,
 
     // "terminal.integrated.shell.linux": "/bin/zsh",
@@ -10,7 +10,7 @@
         "-NoLogo",
         "-NoExit"
     ],
-    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "Fira Code, FiraCodeNerdFontComplete-Retina",
     "terminal.integrated.fontSize": 12,
     
     "telemetry.enableCrashReporter": false,
