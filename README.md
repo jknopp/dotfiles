@@ -34,10 +34,18 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 * vscode-icons-team.vscode-icons
 
 ### Packages :beer:
+* zsh
+* powershell
 * git
 * zsh-autosuggestions
 * zsh-completions
 * zsh-syntax-highlighting
 * font-fira-code-nerd-font
-* zsh
-* powershell
+
+### zsh Plugins
+* oh-my-zsh
+* powerline10k
+    
+### PowerShell Modules
+* posh-git
+* oh-my-posh
