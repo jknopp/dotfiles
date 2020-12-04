@@ -40,3 +40,4 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 * zsh-syntax-highlighting
 * font-fira-code-nerd-font
 * zsh
+* powershell
