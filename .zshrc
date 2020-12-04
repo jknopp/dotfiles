@@ -84,6 +84,7 @@ source $ZSH/oh-my-zsh.sh
 
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
   # Load auto-suggestions.
   source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
   # Load syntax highlighting; should be last.
