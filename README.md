@@ -4,6 +4,10 @@
 ```sh
 export LSCOLORS=ExFxBxDxCxegedabagacad
 ```
+
+### Font
+[FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
+
 ### Programs
 * Docker :whale:
 * VS Code
@@ -16,6 +20,10 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
             <tr>
               <td>kitty</td>
               <td>linux</td>
+            </tr>
+            <tr>
+              <td>windows terminal</td>
+              <td>windows</td>
             </tr>
           </table>
 
