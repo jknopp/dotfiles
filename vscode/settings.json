@@ -28,6 +28,8 @@
     ],
     "terminal.integrated.showExitAlert": false,
     "terminal.external.osxExec": "iTerm.app",
+    // "terminal.external.windowsExec": "C:\\Windows\\System32\\cmd.exe", //set to windows terminal
+    "terminal.external.linuxExec": "kitty",
 
     /* fonts */
     "terminal.integrated.fontFamily": "Fira Code, FiraCodeNerdFontComplete-Retina",
