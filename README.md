@@ -1,5 +1,6 @@
-# dotfiles
-🔧 .files
+# 🔧 .files
+
+## :vampire_man: Dracula Theme
 ```sh
 export LSCOLORS=ExFxBxDxCxegedabagacad
 ```
