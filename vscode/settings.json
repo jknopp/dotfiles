@@ -26,10 +26,12 @@
         "-NoLogo",
         "-NoExit"
     ],
-    "terminal.integrated.fontFamily": "Fira Code, FiraCodeNerdFontComplete-Retina",
-    "terminal.integrated.fontSize": 14,
     "terminal.integrated.showExitAlert": false,
     "terminal.external.osxExec": "iTerm.app",
+
+    /* fonts */
+    "terminal.integrated.fontFamily": "Fira Code, FiraCodeNerdFontComplete-Retina",
+    "terminal.integrated.fontSize": 14,
 
     /*
      *****************
@@ -48,7 +50,6 @@
     },
 
     /* NPM */
-    //"npm.enableScriptExplorer": true,
     "npm.packageManager": "npm",
 
     /*
@@ -68,6 +69,23 @@
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true
+    },
+
+    /*
+     *****************
+     *** LANGUAGES ***
+     *****************
+    */
+
+    "javascript.preferences.quoteStyle": "single",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
 
     /*
