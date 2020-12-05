@@ -29,6 +29,7 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 
 ### VS Code Extensions
 * dracula-theme.theme-dracula
+* dbaeumer.vscode-eslint
 * ms-azuretools.vscode-docker
 * ms-vscode-remote.remote-containers
 * ms-vscode-remote.remote-wsl
