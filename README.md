@@ -44,6 +44,7 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 * zsh-completions
 * zsh-syntax-highlighting
 * font-fira-code-nerd-font
+* dotnet-sdk
 
 ### zsh Plugins
 * oh-my-zsh
