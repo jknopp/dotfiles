@@ -1,4 +1,9 @@
-## 🔧 .files
+
+## 🔧 .files - MacOS / Linux / Windows
+
+<p align="center">
+<a href="https://www.buymeacoffee.com/jknopp" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Beer" style="height: auto !important;width: auto !important;"></a>
+</p>
 
 ### :vampire_man: Dracula Theme
 ```sh
