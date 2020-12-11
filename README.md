@@ -40,6 +40,7 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 * ms-vscode-remote.remote-wsl
 * VisualStudioExptTeam.vscodeintellicode
 * vscode-icons-team.vscode-icons
+* webhint.vscode-webhint
 
 ### Packages :beer:
 * zsh
