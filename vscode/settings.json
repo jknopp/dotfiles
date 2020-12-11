@@ -51,6 +51,7 @@
     },
     /* NPM */
     "npm.packageManager": "npm",
+    "npm.enableRunFromFolder": true,
     /*
      **************
      *** SEARCH ***
@@ -91,5 +92,5 @@
     "vsicons.dontShowNewVersionMessage": true,
     "editor.suggestSelection": "first",
     "explorer.confirmDelete": false,
-    "webhint.enableTelemetry": "disabled",
+    "webhint.enableTelemetry": "disabled"
 }
