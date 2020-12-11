@@ -16,7 +16,7 @@
     /*
      ****************
      *** TERMINAL ***
-     ****************
+     ****************   
     */
 
     "terminal.integrated.shell.linux": "/bin/zsh",
@@ -45,11 +45,13 @@
     "workbench.tips.enabled": false,
     "window.zoomLevel": 0,
     "breadcrumbs.enabled": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.startupEditor": "none",
 
     /* files */
     "files.associations": {
         "Dockerfile_*": "dockerfile",
-        "dockerfile-*": "dockerfile"
+        "Dockerfile-*": "dockerfile"
     },
 
     /* NPM */
@@ -98,5 +100,8 @@
     */
 
     /* EDITOR */
-    "vsicons.dontShowNewVersionMessage": true
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.suggestSelection": "first",
+    "explorer.confirmDelete": false,
+    "webhint.enableTelemetry": "disabled"
 }
