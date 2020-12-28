@@ -57,6 +57,7 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 * zsh-syntax-highlighting
 * font-fira-code-nerd-font
 * dotnet-sdk
+* gh ([GitHub CLI](https://cli.github.com/))
 
 ### zsh Plugins
 * oh-my-zsh
