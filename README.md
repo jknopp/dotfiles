@@ -52,16 +52,28 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 * zsh
 * powershell
 * git
+* gh ([GitHub CLI](https://cli.github.com/))
+* git-extras
 * zsh-autosuggestions
 * zsh-completions
 * zsh-syntax-highlighting
 * font-fira-code-nerd-font
 * dotnet-sdk
-* gh ([GitHub CLI](https://cli.github.com/))
 
 ### zsh Plugins
 * oh-my-zsh
 * powerline10k
+* colored-man-pages
+* dotnet
+* docker
+* docker-compose 
+* extract
+* emoji 
+* git
+* npm 
+* vscode 
+* web-search 
+* z
     
 ### PowerShell Modules
 * posh-git
