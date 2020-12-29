@@ -70,6 +70,7 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 * extract
 * emoji 
 * git
+* git-extras
 * npm 
 * vscode 
 * web-search 
