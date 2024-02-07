@@ -1,111 +1,144 @@
 {
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    /*
-     **************
-     *** EDITOR ***
-     **************
-    */
-    "editor.formatOnPaste": true,
-    "editor.formatOnType": true,
-    "editor.formatOnSave": true,
-    /* fonts */
-    "editor.fontFamily": "Fira Code, FiraCodeNerdFontComplete-Retina",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 12,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "diffEditor.renderSideBySide": true,
-    "explorer.confirmDragAndDrop": false,
-    // "editor.defaultFormatter": "esbenp.prettier-vscode",
-    // "html.format.enable": false,
-    // "css.validate": false,
-    /*
-     ****************
-     *** TERMINAL ***
-     ****************   
-    */
-    "terminal.integrated.shell.linux": "/bin/zsh",
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "terminal.integrated.shell.windows": "C:\\Users\\owner\\AppData\\Local\\Microsoft\\WindowsApps\\pwsh.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "-ExecutionPolicy",
-        "Bypass",
-        "-NoLogo",
-        "-NoExit"
-    ],
-    "terminal.integrated.showExitAlert": false,
-    "terminal.external.osxExec": "iTerm.app",
-    "terminal.external.windowsExec": "C:\\Users\\owner\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
-    "terminal.external.linuxExec": "kitty",
-    /* fonts */
-    "terminal.integrated.fontFamily": "Fira Code, FiraCodeNerdFontComplete-Retina",
-    "terminal.integrated.fontSize": 14,
-    /*
-     *****************
-     *** WORKBENCH ***
-     *****************
-    */
-    "workbench.tips.enabled": false,
-    "window.zoomLevel": 0,
-    "breadcrumbs.enabled": true,
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.startupEditor": "none",
-    /* files */
-    "files.associations": {
-        "Dockerfile_*": "dockerfile",
-        "Dockerfile-*": "dockerfile"
-    },
-    /* NPM */
-    "npm.packageManager": "npm",
-    "npm.enableRunFromFolder": true,
-    /* Git */
-    "git.autofetch": true,
-    "git.autoStash": true,
-    /*
-     **************
-     *** SEARCH ***
-     **************
-    */
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/dist": true
-    },
-    /*
-     *****************
-     *** LANGUAGES ***
-     *****************
-    */
-    "javascript.preferences.quoteStyle": "single",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    /*
-     ****************
-     *** THEMEING ***
-     ****************
-    */
-    "workbench.colorTheme": "Dracula",
-    "workbench.iconTheme": "vscode-icons",
-    /*
-     ******************
-     *** EXTENSIONS ***
-     ******************
-    */
-    /* EDITOR */
-    "emmet.triggerExpansionOnTab": true,
-    "eslint.alwaysShowStatus": true,
-    "vsicons.dontShowNewVersionMessage": true,
-    "editor.suggestSelection": "first",
-    "explorer.confirmDelete": false,
-    "webhint.enableTelemetry": "disabled"
+  "telemetry.telemetryLevel": "off",
+  // "telemetry.enableCrashReporter": false,
+  // "telemetry.enableTelemetry": false,
+  /*
+   **************
+   *** EDITOR ***
+   **************
+   */
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  /* fonts */
+  "editor.fontFamily": "FiraCodeNF-Ret",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "diffEditor.renderSideBySide": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "html.format.enable": false,
+  // "css.validate": false,
+  "html.validate.scripts": true,
+  "editor.codeLensFontFamily": "FiraCodeNF-Ret",
+  /*
+   ****************
+   *** TERMINAL ***
+   ****************
+   */
+  "terminal.integrated.shell.linux": "/bin/zsh",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.shell.windows": "C:\\Users\\owner\\AppData\\Local\\Microsoft\\WindowsApps\\pwsh.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "-ExecutionPolicy",
+    "Bypass",
+    "-NoLogo",
+    "-NoExit"
+  ],
+  "terminal.integrated.showExitAlert": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.external.windowsExec": "C:\\Users\\owner\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+  "terminal.external.linuxExec": "kitty",
+  /* fonts */
+  "terminal.integrated.fontFamily": "FiraCodeNF-Ret",
+  "terminal.integrated.fontSize": 14,
+  /*
+   *****************
+   *** WORKBENCH ***
+   *****************
+   */
+  "workbench.tips.enabled": false,
+  "window.zoomLevel": 0,
+  "breadcrumbs.enabled": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.startupEditor": "none",
+  /* files */
+  "files.associations": {
+    "Dockerfile_*": "dockerfile",
+    "Dockerfile-*": "dockerfile"
+  },
+  /* NPM */
+  "npm.packageManager": "npm",
+  "npm.enableRunFromFolder": true,
+  /* Git */
+  "git.autofetch": true,
+  "git.autoStash": true,
+  /*
+   **************
+   *** SEARCH ***
+   **************
+   */
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true
+  },
+  /*
+   *****************
+   *** LANGUAGES ***
+   *****************
+   */
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[json][jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    //"editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript][typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    //"editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[css][scss][less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    //"editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  /*
+   ****************
+   *** THEMEING ***
+   ****************
+   */
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "vscode-icons",
+  /*
+   ******************
+   *** EXTENSIONS ***
+   ******************
+   */
+  /* EDITOR */
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": ["javascript", "typescript"],
+  "vsicons.dontShowNewVersionMessage": true,
+  "webhint.enableTelemetry": "disabled",
+  "vetur.validation.templateProps": true,
+  "mssql.format.keywordCasing": "uppercase",
+  "mssql.connections": [
+    {
+      "server": "172.17.0.4",
+      "database": "",
+      "authenticationType": "SqlLogin",
+      "user": "sa",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": false
+    }
+  ]
 }
