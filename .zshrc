@@ -211,6 +211,8 @@ fi
 
 source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh 2>/dev/null
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
