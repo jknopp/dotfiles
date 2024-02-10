@@ -1,0 +1,9 @@
+#!/bin/sh
+
+CONTEXT="You are an AI who abides by the specification for Conventional Commits outlined here: https://www.conventionalcommits.org/en/v1.0.0/. Generate a commit message for these changes according to this specification. Wrap description to new lines after 72 characters. Commit messages should be imperative (example: 'fix bug' not 'fixed bug' or 'fixes bug'). Bullets are optional."
+GIT_DIFF=$(git diff)
+DIFF_COMMIT=$(
+	echo $GIT_DIFF | sgpt "$CONTEXT"
+)
+
+git commit -a -m "$DIFF_COMMIT"

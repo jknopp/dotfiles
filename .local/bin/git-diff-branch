@@ -1,0 +1,9 @@
+#!/bin/sh
+
+CONTEXT="You are an AI who only outputs git branch names. Summarize the commit changes in 5 words or less and format them as a git branch name"
+GIT_DIFF=$(git diff)
+DIFF_BRANCH=$(
+	echo $GIT_DIFF | sgpt --code "$CONTEXT"
+)
+
+git checkout -b $DIFF_BRANCH
